@@ -1,0 +1,34 @@
+.material-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  height: 200px;
+  border-radius: 5px;
+  z-index: 5;
+  background-color: rgba(201, 244, 172, 0.564);
+  flex-shrink: 0;
+
+  padding-top: 10px;
+}
+
+.material-preview {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.material-name {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.material-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
